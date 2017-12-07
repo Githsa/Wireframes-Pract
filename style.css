@@ -19,3 +19,10 @@ aside {
     margin: 10px;
     
 }
+
+section {
+    
+    width: 495px;
+    height: 297px;
+    float: left;
+}
