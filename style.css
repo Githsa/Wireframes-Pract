@@ -11,26 +11,61 @@ body {
 header,
 nav,
 section,
-aside {
+aside,
+footer {
 
-	background-color:#ebebeb;
+	background-color: #ebebeb;
     text-align: center;
     padding:10px;
     margin: 10px;
-    
+
 }
 
 section {
     
     width: 495px;
     height: 267px;
+    display: block;
     float: left;
+    overflow: hidden;
 }
 
 aside {
-  display: block;
-  float: right;
-  width: 40%;
-  height: 267px;
-  overflow: hidden;
+
+    width:40%;
+    height:267px;
+    float: right;
+    display: block;
+    overflow: hidden;
+
 }
+
+article {
+  padding: 10px;
+  color: #ebebeb;
+  background: #777;
+}
+
+
+#image {
+  padding: 60px;
+  background:#777;
+  
+}
+
+
+.clear {
+  clear: both;
+}
+
+
+h1,
+p {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  color: #777;
+  text-align: center;
+  background: #ebebeb;
+}
+
